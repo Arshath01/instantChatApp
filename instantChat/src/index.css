@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.containerWrap{
+  @apply w-full max-w-3xl  flex justify-between m-auto;
+}
+
+.messageContainerWrap{
+  @apply w-full max-w-3xl m-auto px-3;
+}
